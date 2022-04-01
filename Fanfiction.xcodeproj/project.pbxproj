@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		4D9171F927F72AC000786312 /* FanfictionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9171F827F72AC000786312 /* FanfictionApp.swift */; };
-		4D9171FB27F72AC000786312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9171FA27F72AC000786312 /* ContentView.swift */; };
 		4D9171FD27F72AC200786312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9171FC27F72AC200786312 /* Assets.xcassets */; };
 		4D91720027F72AC200786312 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9171FF27F72AC200786312 /* Preview Assets.xcassets */; };
+		4D91720727F72AF500786312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91720627F72AF500786312 /* ContentView.swift */; };
+		4D91720927F72B0200786312 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91720827F72B0200786312 /* SearchBar.swift */; };
+		4D91721227F72B1200786312 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91720A27F72B1200786312 /* Profile.swift */; };
+		4D91721327F72B1200786312 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91720B27F72B1200786312 /* Settings.swift */; };
+		4D91721427F72B1200786312 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91720C27F72B1200786312 /* Forum.swift */; };
+		4D91721527F72B1200786312 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91720D27F72B1200786312 /* Search.swift */; };
+		4D91721627F72B1200786312 /* Write.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91720E27F72B1200786312 /* Write.swift */; };
+		4D91721727F72B1200786312 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91720F27F72B1200786312 /* CategoryView.swift */; };
+		4D91721827F72B1200786312 /* ProfileInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91721027F72B1200786312 /* ProfileInside.swift */; };
+		4D91721927F72B1200786312 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91721127F72B1200786312 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D9171F527F72AC000786312 /* Fanfiction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanfiction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9171F827F72AC000786312 /* FanfictionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanfictionApp.swift; sourceTree = "<group>"; };
-		4D9171FA27F72AC000786312 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D9171FC27F72AC200786312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D9171FF27F72AC200786312 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D91720627F72AF500786312 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../Fanfiction.net/Fanfiction.net/ContentView.swift; sourceTree = "<group>"; };
+		4D91720827F72B0200786312 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		4D91720A27F72B1200786312 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		4D91720B27F72B1200786312 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		4D91720C27F72B1200786312 /* Forum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
+		4D91720D27F72B1200786312 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		4D91720E27F72B1200786312 /* Write.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Write.swift; sourceTree = "<group>"; };
+		4D91720F27F72B1200786312 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		4D91721027F72B1200786312 /* ProfileInside.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInside.swift; sourceTree = "<group>"; };
+		4D91721127F72B1200786312 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				4D9171F827F72AC000786312 /* FanfictionApp.swift */,
-				4D9171FA27F72AC000786312 /* ContentView.swift */,
+				4D91720627F72AF500786312 /* ContentView.swift */,
 				4D9171FC27F72AC200786312 /* Assets.xcassets */,
 				4D9171FE27F72AC200786312 /* Preview Content */,
 			);
@@ -62,7 +80,16 @@
 		4D9171FE27F72AC200786312 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				4D91720827F72B0200786312 /* SearchBar.swift */,
 				4D9171FF27F72AC200786312 /* Preview Assets.xcassets */,
+				4D91720F27F72B1200786312 /* CategoryView.swift */,
+				4D91720C27F72B1200786312 /* Forum.swift */,
+				4D91721127F72B1200786312 /* Home.swift */,
+				4D91720A27F72B1200786312 /* Profile.swift */,
+				4D91721027F72B1200786312 /* ProfileInside.swift */,
+				4D91720D27F72B1200786312 /* Search.swift */,
+				4D91720B27F72B1200786312 /* Settings.swift */,
+				4D91720E27F72B1200786312 /* Write.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9171FB27F72AC000786312 /* ContentView.swift in Sources */,
 				4D9171F927F72AC000786312 /* FanfictionApp.swift in Sources */,
+				4D91721627F72B1200786312 /* Write.swift in Sources */,
+				4D91721227F72B1200786312 /* Profile.swift in Sources */,
+				4D91721927F72B1200786312 /* Home.swift in Sources */,
+				4D91721827F72B1200786312 /* ProfileInside.swift in Sources */,
+				4D91720727F72AF500786312 /* ContentView.swift in Sources */,
+				4D91720927F72B0200786312 /* SearchBar.swift in Sources */,
+				4D91721327F72B1200786312 /* Settings.swift in Sources */,
+				4D91721427F72B1200786312 /* Forum.swift in Sources */,
+				4D91721527F72B1200786312 /* Search.swift in Sources */,
+				4D91721727F72B1200786312 /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
