@@ -135,10 +135,12 @@ struct FicCarousel: View {
                                         .multilineTextAlignment(.center)
                                         .foregroundColor(.primary)
                                     HStack(spacing: 0) {
+                                        Image(systemName: "person")
+                                            .padding(.horizontal,3)
                                         Text("Author")
-                                            .font(.caption)
-                                            .foregroundColor(Color.gray)
-                                        }
+                                        }.font(.caption)
+                                        .foregroundColor(Color.gray)
+
                                     }.padding(.top, -8)
                                 })
                         
