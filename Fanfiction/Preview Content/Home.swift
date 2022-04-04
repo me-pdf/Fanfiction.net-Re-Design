@@ -62,7 +62,7 @@ struct Home: View {
                         Saved)
                     
                 }
-                .navigationBarTitle("Home", displayMode: .large)
+                .navigationBarTitle("Bookshelf", displayMode: .large)
                     
                 
             }

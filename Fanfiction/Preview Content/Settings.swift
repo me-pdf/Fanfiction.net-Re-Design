@@ -141,6 +141,7 @@ struct Settings: View {
         
 
         .navigationTitle("Settings")
+            
         }
     }
 }

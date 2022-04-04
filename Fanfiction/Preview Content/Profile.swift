@@ -12,7 +12,7 @@ struct Profile: View {
         NavigationView{
             
 
-            ProfileInside()
+//            ProfileInside()
             
 //            Navigation BAR
         }.navigationTitle("Your Profile")
